@@ -1,0 +1,31 @@
+# Game:
+*.autosave.map
+*.bak
+*.prt
+*.srf
+*.bsp
+*.pk3
+*.navMesh
+maps/backups/
+maps/usstremor/
+
+# OS:
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.db
+
+# Adobe:
+*.psd
+*.ai
+
+# Misc:
+*.7z
+
+# Private:
+DEV/
