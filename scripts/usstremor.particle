@@ -1,0 +1,471 @@
+// Direct-Lights:
+usstremor/dlight_blue_flicker
+{
+	ejector
+	{
+		particle
+		{
+			displacement 0 0 0 0
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 0 0
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 0
+			accelerationMagnitude 0
+			radius 0 500 0
+			rotation 0 0 0
+			alpha 0 0 0
+			bounce 0
+			dynamicLight 0 50 0 { 0.20 0.78 0.86 }
+			lifeTime 1500
+		}
+    count infinite
+    delay 1
+    period 1000 - ~45%
+  }
+}
+
+usstremor/dlight_white_pulse
+{
+	ejector
+	{
+		particle
+		{
+			displacement 0 0 0 0
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 0 0
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 0
+			accelerationMagnitude 0
+			radius 0 200 0
+			alpha 0 0 0
+			rotation 0 0 0
+			bounce 0
+			dynamicLight 0 100 0 { 0.9 0.9 0.9 }
+			lifeTime 5000
+		}
+    count infinite
+    delay 1
+    period 1000 - -
+  }
+}
+
+usstremor/dlight_red_flicker
+{
+	ejector
+	{
+		particle
+		{
+			displacement 0 0 0 0
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 0 0
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 0
+			accelerationMagnitude 0
+			rotation 0 0 0
+			radius 0 0 0
+			alpha 0 0 0
+			bounce 0
+			dynamicLight 0 400 240 { 0.9 0.0 0.0 }
+			lifeTime 500
+		}
+    count infinite
+    delay 1
+    period 1000 - ~45%
+  }
+}
+
+//Misc.:
+usstremor/stars_01
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/sparks_01
+			displacement 50 50 50 ~300
+			velocityType static
+			velocityDir linear
+			velocity 280 0 0 ~0
+			velocityMagnitude 200~50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 ~1
+			accelerationMagnitude 200
+			bounce cull
+			radius 0 60 20
+			alpha 0 0.2 0
+			rotation 0 0 360
+			lifeTime 15000
+		}
+	delay 0
+	count infinite
+	period 10000 - ~66%
+	}
+}
+
+usstremor/stars_02
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/usstremor_custom_src/sparks_01
+	    displacement 100 100 100 ~250
+		velocityType static
+		velocityDir linear
+		velocity 360 0 0 ~0
+		velocityMagnitude 200~50
+		
+		accelerationType static
+		accelerationDir linear
+		acceleration 0 0 0 ~1
+		accelerationMagnitude 200
+		rotation 0 0 360
+		radius 0 40 25
+		alpha 0 0.2 0
+		bounce cull
+		lifeTime 15000
+		}
+	delay 0
+	count infinite
+	period 6000 - ~40%
+	}
+}
+
+usstremor/smoke_01
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/smoke_01
+			displacement 1 1 1 ~5
+			velocityType static
+			velocityDir linear
+			velocity 0 -360 0 ~0
+			velocityMagnitude 250~50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 ~1
+			accelerationMagnitude	150
+			rotation 0 0 360
+			radius 0 0 200
+			alpha 0 0.3 0
+			lifeTime 5000
+		}
+		delay 0
+		count infinite
+		period 300 - ~60%
+	}
+}
+
+usstremor/engineblast_01
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/sparks_02
+			displacement 1 0 0 ~1
+			velocityType static
+			velocityDir linear
+			velocity 360 0 0 ~0
+			velocityMagnitude 200~50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 ~1
+			accelerationMagnitude 250
+			radius 90 65 40
+			alpha 1 0 0
+			lifeTime 150
+			overdrawProtection
+		}
+		delay 0
+		count infinite
+		period 50 - ~50%
+	}
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/sparks_02
+			displacement 2 2 2 ~5
+			velocityType static
+			velocityDir linear
+			velocity 360 0 0 ~0
+			velocityMagnitude 600~50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 ~1
+			accelerationMagnitude 250
+			radius 70 35 20
+			alpha 0.8 0.5 0
+			lifeTime 300
+			dynamicLight 0 400 0 { 0.1 0.3 1 }
+		}
+		delay 0
+		count infinite
+		period 30 - ~50%
+	}
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/smoke_01
+			displacement 4 4 4 ~33
+			velocityType static
+			velocityDir linear
+			velocity 360 0 0 ~0
+			velocityMagnitude 400~50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 ~1
+			accelerationMagnitude 200
+			rotation 0 0 360
+			radius 0 0 300
+			alpha 0 0.3 0
+			lifeTime 6000
+		}
+		delay 0
+		count infinite
+		period 300 - ~100%
+	}
+}
+
+usstremor/spark_01
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/sparks_01
+			displacement 1 1 1 ~10
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 50
+			velocity -1 -1 -1 ~50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude	250
+			radius 0 3 1
+			alpha 1200 .9 0
+			rotation 10 ~180 ~45
+			bounce 0.3
+			dynamicLight 0 200 0 { 0.7 0.5 0.3 }
+			lifeTime 6000
+		}
+		count infinite
+		delay 2
+		period 1500 - ~33%
+	}
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/sparks_01
+			displacement 1 1 1 ~10
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 50
+			velocity 0 0 -1 ~50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude	250
+			radius 0 3 1
+			alpha 1200 .9 0
+			rotation 0 ~180 ~45
+			bounce 0.4
+			dynamicLight 0 200 0 { 0.7 0.5 0.3 }
+			lifeTime 6000
+		}
+    count infinite
+    delay 1
+    period 2000 - ~33%
+  }
+}
+
+usstremor/power_effect
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/sparks_01
+			displacement 2 2 2 ~10
+			dynamicLight 0 100 0 { 0.7 0.5 0.3 }
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 50
+			velocity 0 0 -1 ~50
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude	250
+			rotation 0 ~180 ~45
+			radius 0 20.0 0
+			alpha 100 0.3 0.0
+			bounce 0.2
+			dynamicLight 0 200 0 { 0.7 0.5 0.3 }
+			lifeTime 6000
+		}
+		count infinite
+		delay 4
+		period 1500 - ~33%
+	}
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/energy_distortion
+			displacement 1 1 1 ~5
+			dynamicLight 0 20 0 { 0.7 0.5 0.3 }
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 0 0
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 0
+			accelerationMagnitude 0
+			radius 0 400 0
+			alpha 0 0 0
+			rotation 0 0 0
+			bounce 0
+			lifeTime 800
+		}
+		particle
+		{
+			shader sync textures/usstremor_custom_src/sparks_01
+			displacement 0 0 0 ~10
+			parentVelocityFraction 1
+			velocityType cent
+			velocityDir linear
+			velocityMagnitude 100
+			velocity 0 0 0 ~360
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 225
+			acceleration 0 0 90 ~360
+			radius 0 60 0
+			alpha 0 1 0
+			rotation 0 ~360 -
+			bounce .1
+			lifeTime 1400
+		}
+    count infinite
+    delay 1
+    period 100 - ~25%
+  }
+}
+
+usstremor/power_effect_2
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/energy_distortion
+			displacement 1 1 1 ~5
+			dynamicLight 0 100 0 { 0.7 0.5 0.3 }
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 0 0
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 0
+			accelerationMagnitude 0
+			radius 0 400 0
+			alpha 0 0 0
+			rotation 0 0 0
+			bounce 0
+			lifeTime 500
+		}
+		particle
+		{
+			shader sync textures/usstremor_custom_src/energy_distortion
+			displacement 130 0 0 ~13
+			parentVelocityFraction 1
+			velocityType cent
+			velocityDir linear
+			velocityMagnitude 100
+			velocity 0 0 0 ~25
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 225
+			acceleration 0 0 1 ~0
+			radius 0 0 45
+			alpha 0 1 0
+			rotation 0 ~360 -
+			bounce .1
+			lifeTime 800
+		}
+    count infinite
+    delay 1
+    period 100 - ~25%
+  }
+}
+
+//Watering:
+usstremor/watering
+{
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/water_splash
+			displacement 1 1 1 ~5
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 250
+			velocity 0 0 -1 ~20
+			accelerationType static_transform
+			accelerationDir linear
+			acceleration 0 0 ~5 ~10
+			accelerationMagnitude 220
+			radius 25 5 0
+			rotation 0 0 0
+			alpha 1 0.5 0
+			bounce 0
+			lifeTime 10000
+		}
+    count infinite
+    delay 0
+    period 4 - ~5%
+  }
+	ejector
+	{
+		particle
+		{
+			shader sync textures/usstremor_custom_src/water_splash
+			displacement 0 0 0 ~3
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 0
+			velocity 0 0 0 0
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 0 0
+			accelerationMagnitude 0
+			radius 100 50 0
+			alpha 0 0 0
+			rotation 0 0 0
+			bounce 0
+			lifeTime 500
+		}
+    count infinite
+    delay 1
+    period 100 - ~25%
+  }
+}

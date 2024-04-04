@@ -1,0 +1,7 @@
+{
+	backgroundColor 0.0 0.0 0.0 0.333
+	zone {
+		bounds 0 0 0 0 0 0
+		image "minimaps/usstremor" -2027.500000 -5630.000000 7346.500000 3744.000000
+	}
+}
