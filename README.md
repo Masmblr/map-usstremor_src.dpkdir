@@ -47,7 +47,7 @@ Improvements for version 1.1:
 | Version: | Date:        | Status: | Release Build (.dpk):       
 | ------- | ------------- | ------: | -----------------: |
 | 1.0    | 07/02/2018  | beta | :x:        |     
-| 1.1    | 04/04/2024  | beta | [💾](https://github.com/Masmblr/map-usstremor_src/releases/) |
+| 1.1    | 04/04/2024  | beta | [💾](https://github.com/Masmblr/map-usstremor_src.dpkdir/releases) |
 
 ## Development Tools:
 [GIMP](https://www.gimp.org/) \
