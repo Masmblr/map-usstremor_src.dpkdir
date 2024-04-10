@@ -14,9 +14,15 @@ Excerpt from the old readme:
 > A notable addition is the cargo elevator within the storage area. Hint brushes were used for optimal performance and space-themed immersion. An extensive sound atmosphere adds to the immersive experience.
 > This is an UNOFFICIAL remake, a labor of love aiming to pay tribute to Tremor's legacy and provide players with an unforgettable gaming experience :).
 
-* * *
-Improvements for version 1.1:
+ * * *
 
+    Changelog:
+    
+    10.04.2024:
+    -Font exchanged
+    -Textures updated
+    
+    04.04.2024:
     -The machinery section has been lined with player-clip brushes to prevent players from falling through the structure (glitching).
     -The lighting has been completely overhauled. Some areas now feature detailed shadow casting compared to before.
     -Extensive use of D-Lights (via particle system) has been made to enhance the atmosphere.
@@ -27,8 +33,9 @@ Improvements for version 1.1:
     -Some outdoor areas have been added to enhance the spaceship feel.
     -Some minor changes to entities.
     -Brushwork has been altered in certain areas.
+
  * * *
- 
+  
 ## Screenshots:
 [<img src="readme_meta/preview_levelshots/1.jpg" width="250"/>](readme_meta/preview_levelshots/1.jpg)
 [<img src="readme_meta/preview_levelshots/2.jpg" width="250"/>](readme_meta/preview_levelshots/2.jpg)
@@ -44,10 +51,10 @@ Improvements for version 1.1:
 [<img src="readme_meta/preview_levelshots/12.jpg" width="250"/>](readme_meta/preview_levelshots/12.jpg)
 
 ## History:
-| Version: | Date:        | Status: | Release Build (.dpk):       
-| ------- | ------------- | ------: | -----------------: |
-| 1.0    | 07/02/2018  | beta | :x:        |     
-| 1.1    | 04/04/2024  | beta | [💾](https://github.com/Masmblr/map-usstremor_src.dpkdir/releases) |
+| Version: | Date:        | Status: |    
+| ------- | ------------- | ------: | 
+| 1.0    | 07/02/2018  | beta |
+| 1.1    | 04/04/2024  | beta |
 
 ## Development Tools:
 [GIMP](https://www.gimp.org/) \
@@ -227,5 +234,5 @@ Modified files or derivatives are marked with an asterisk (*).
 **Unvanquished-Development** (https://www.unvanquished.net), GNU GPLv3, CC BY-SA 2.5, Files =
 - gfx\usstremor\colorgrading.webp *
 
-**Allen R. Walden** (https://www.fontspace.com/allen-r-walden), Freeware / Non-Commercial
-- final-frontier-shipside-font (used in several textures) *
+**ocelothe2k1** (https://github.com/ocelothe/), SIL OPEN FONT LICENSE Version 1.1
+- Librestile-font (used in several textures) *

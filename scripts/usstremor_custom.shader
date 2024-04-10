@@ -1,6 +1,6 @@
 textures/usstremor_custom_src/skybox_sun_90
 {
-    qer_editorimage env/usstremor/usstremor_up
+    qer_editorimage textures/usstremor_custom_src/black_01.jpg
 	surfaceparm sky
     surfaceparm nolightmap
 	surfaceparm nodlight

@@ -6,8 +6,6 @@
 *.bsp
 *.pk3
 *.navMesh
-maps/backups/
-maps/usstremor/
 
 # OS:
 .DS_Store
@@ -28,4 +26,4 @@ desktop.ini
 *.7z
 
 # Private:
-DEV/
+TRASH/
