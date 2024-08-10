@@ -72,14 +72,13 @@ Unvanquished website: https://unvanquished.net </br>
 NetRadiant Level-Editor: https://netradiant.gitlab.io </br>
 
 ## Credits - Legal Information and Attribution
-Some assets may be derivative works or subject to different licenses. 
-Please refer for author and license details. Note that some files may have been modified. 
-Below is a list of files and their legal statuses. For license information, refer to the LICENSE file.
-Modified files or derivatives are marked with an asterisk (*).
+Below is a list of files along with their legal statuses. For detailed license information,
+please refer to the LICENSE file or the provided link. Works that incorporate elements
+influenced by other pieces are indicated with an asterisk (*) at the end.
 
->Format: [AUTHOR], [LICENSE], Files = [FILELIST]
+The following files are published by Matthias “Masmblr” Peters (masmblr@gmail.com)
+under the CC BY 4.0 - Attribution 4.0 International license:
 
-**Matthias “Masmblr” Peters** (masmblr@gmail.com),  CC BY 4.0 Deed - Attribution 4.0 International , Files =
 - DEPS 
 - README.md 
 - readme_vordruck.txt 
